@@ -34,6 +34,10 @@ img {
     align-items: center;
 }
 
+.nav-flex img {
+    width: auto;
+}
+
 .nav-flex>ul {
     display: flex;
     gap: 12px;
@@ -193,12 +197,17 @@ body>section.flex>* {
         padding: 24px;
     }
 
-    #menu {
+    #nav-menu {
         display: none;
     }
 
     #about {
         margin-top: 56px;
+    }
+
+    #about>section.flex {
+        gap: 40px;
+        flex-wrap: wrap-reverse;
     }
 
     .flex {
@@ -213,7 +222,7 @@ body>section.flex>* {
     }
 
     .hero {
-        padding: 40px 0;
+        padding: 24px 0;
     }
 
     .div1 {
