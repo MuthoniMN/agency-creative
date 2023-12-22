@@ -169,7 +169,6 @@ body>section.flex>* {
 
 .service {
     flex-basis: 40%;
-    min-width: 250px;
     padding: 12px;
     border: 1px solid #b8b5b5;
     border-radius: 16px;
@@ -189,6 +188,41 @@ body>section.flex>* {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.portfolio-project {
+    position: relative;
+    flex-basis: 33.3333%;
+}
+
+.portfolio-project div {
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+    opacity: .75;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.portfolio-project p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    bottom: 18px;
+    left: 48px;
+}
+
+.portfolio-project div:hover {
+    opacity: 1;
+    transform: scale(1.15);
+    transition: all 400ms ease-in-out;
+    font-size: 24px;
+}
+
+#projects>section {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
 }
 
 @media screen and (max-width: 640px) {
@@ -242,5 +276,9 @@ body>section.flex>* {
         bottom: -64px;
         left: 48%;
         width: 180px;
+    }
+
+    .service {
+        width: 250px;
     }
 }
