@@ -89,7 +89,7 @@ section {
 .hero>div {
     position: absolute;
     padding: 16px 32px;
-    width: fit-content;
+    width: 320px;
     box-shadow: 2px 2px 2px 2px #00000057;
     background: white;
     border-radius: 20px;
