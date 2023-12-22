@@ -74,7 +74,7 @@ section {
     display: flex;
     gap: 40px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .text-center {
@@ -89,7 +89,7 @@ section {
 .hero>div {
     position: absolute;
     padding: 8px 32px;
-    box-shadow: 1px 1px 1px 1px #00000057;
+    box-shadow: 2px 2px 2px 2px #00000011;
     background: white;
     border-radius: 20px;
 }
@@ -119,4 +119,42 @@ section {
 
 .div2 p {
     margin: 4px 0;
+}
+
+.link {
+    display: block;
+    text-align: right;
+    color: #377DFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cardContainer {
+    flex-basis: 50%;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex-basis: 40%;
+    padding: 12px;
+    border: 1px solid #b8b5b5;
+    border-radius: 16px;
+    transition: all 200ms ease-in-out;
+}
+
+.service:hover {
+    box-shadow: 2px 2px 2px 2px #00000011;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
