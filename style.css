@@ -89,9 +89,16 @@ section {
 .hero>div {
     position: absolute;
     padding: 16px 32px;
-    width: 180px;
+    max-width: 240px;
     box-shadow: 2px 2px 2px 2px #00000057;
     background: white;
+    border-radius: 20px;
+}
+
+.hero>img {
+    position: absolute;
+    left: 50%;
+    right: 50%;
 }
 
 .div1 {
@@ -101,5 +108,5 @@ section {
 
 .div2 {
     bottom: -4px;
-    right: 10px;
+    left: 90%;
 }
