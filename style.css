@@ -97,8 +97,9 @@ section {
 }
 
 .hero>img {
-    left: 50%;
-    right: 50%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
 }
 
 .div1 {
