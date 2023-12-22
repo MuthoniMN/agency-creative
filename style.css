@@ -34,6 +34,11 @@ img {
     align-items: center;
 }
 
+#menu-icon {
+    font-size: 32px;
+    display: none;
+}
+
 .nav-flex img {
     width: auto;
 }
@@ -199,6 +204,10 @@ body>section.flex>* {
 
     #nav-menu {
         display: none;
+    }
+
+    #menu-icon {
+        display: block;
     }
 
     #about {
