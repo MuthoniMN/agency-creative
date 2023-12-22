@@ -4,6 +4,10 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
+.current {
+    font-weight: bold;
+}
+
 nav {
     padding: 12px 32px;
 }
@@ -16,8 +20,12 @@ h2 {
     font-size: 32px;
 }
 
+img {
+    width: 100%;
+}
+
 .before-btn {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .nav-flex {
@@ -28,7 +36,7 @@ h2 {
 
 .nav-flex>ul {
     display: flex;
-    gap: 6px;
+    gap: 12px;
     list-style: none;
     margin-right: 16px;
 }
@@ -37,6 +45,10 @@ h2 {
     color: black;
     font-size: 18px;
     text-decoration: none;
+}
+
+.nav-flex>ul a:hover {
+    text-decoration: underline;
 }
 
 h6 {
@@ -50,8 +62,12 @@ h2 {
     margin: 12px 0;
 }
 
-section {
+body>section {
     padding: 40px;
+}
+
+body>section.flex>* {
+    flex-basis: 40%;
 }
 
 .btn {
@@ -73,7 +89,7 @@ section {
 .flex {
     display: flex;
     gap: 40px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -95,6 +111,7 @@ section {
 }
 
 .hero>img {
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -111,8 +128,14 @@ section {
     width: 180px;
 }
 
+.div2 img {
+    width: 32px;
+}
+
 .div2>div {
     font-size: 12px;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -130,7 +153,6 @@ section {
 }
 
 .cardContainer {
-    flex-basis: 50%;
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
@@ -138,6 +160,7 @@ section {
 
 .service {
     flex-basis: 40%;
+    min-width: 250px;
     padding: 12px;
     border: 1px solid #b8b5b5;
     border-radius: 16px;
@@ -157,4 +180,49 @@ section {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+@media screen and (max-width: 640px) {
+
+    body>section {
+        padding: 40px 12px;
+    }
+
+    body>section.flex>* {
+        flex-basis: 100%;
+        padding: 24px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #about {
+        margin-top: 56px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    body>section.flex>.cardContainer {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .div1 {
+        left: -2.5%;
+    }
+
+    .div2 {
+        bottom: -64px;
+        left: 48%;
+        width: 180px;
+    }
 }
