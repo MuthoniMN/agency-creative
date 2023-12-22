@@ -1,3 +1,7 @@
+nav {
+    padding: 12px 32px;
+}
+
 .nav-flex {
     display: flex;
     justify-content: space-between;
@@ -5,12 +9,14 @@
 }
 
 .nav-flex>ul {
+    display: flex;
     list-style: none;
+    margin-right: 16px;
 }
 
 .nav-flex>ul a {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -19,6 +25,7 @@ h6 {
 }
 
 .btn {
+    text-decoration: none;
     padding: 12px 24px;
 }
 
