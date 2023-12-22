@@ -96,12 +96,6 @@ section {
     border-radius: 20px;
 }
 
-.hero>img {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-}
-
 .div1 {
     top: 24px;
     left: -56px;
@@ -109,5 +103,5 @@ section {
 
 .div2 {
     bottom: -4px;
-    left: 110%;
+    left: 125%;
 }
