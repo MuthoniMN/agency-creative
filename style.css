@@ -83,10 +83,12 @@ section {
 
 .hero {
     position: relative;
+    margin: 0 auto;
 }
 
-.hero div {
+.hero>div {
     position: absolute;
-    width: fit-content;
+    width: 150px;
     box-shadow: 2px 2px 2px 2px #00000057;
+    background: white;
 }
