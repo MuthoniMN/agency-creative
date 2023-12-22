@@ -12,6 +12,10 @@ p {
     color: #464646;
 }
 
+h2 {
+    font-size: 32px;
+}
+
 .nav-flex {
     display: flex;
     justify-content: space-between;
@@ -44,7 +48,7 @@ section {
 .btn {
     text-decoration: none;
     padding: 12px 24px;
-    border-radius: 16px;
+    border-radius: 32px;
 }
 
 .btn-secondary {
