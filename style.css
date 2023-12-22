@@ -16,6 +16,10 @@ h2 {
     font-size: 32px;
 }
 
+.before-btn {
+    margin-bottom: 16px;
+}
+
 .nav-flex {
     display: flex;
     justify-content: space-between;
@@ -24,6 +28,7 @@ h2 {
 
 .nav-flex>ul {
     display: flex;
+    gap: 6px;
     list-style: none;
     margin-right: 16px;
 }
@@ -39,6 +44,10 @@ h6 {
     font-size: 14px;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    margin: 12px 0;
 }
 
 section {
