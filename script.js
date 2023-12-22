@@ -10,3 +10,7 @@ setInterval(() => {
         }
     })
 }, 1000)
+
+document.querySelector("#menu-icon").addEventListener('click', () => {
+    document.querySelector("#nav-menu").classList.toggle("mobile-nav")
+})

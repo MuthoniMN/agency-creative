@@ -37,6 +37,7 @@ img {
 #menu-icon {
     font-size: 32px;
     display: none;
+    cursor: pointer;
 }
 
 .nav-flex img {
@@ -58,6 +59,28 @@ img {
 
 .nav-flex>ul a:hover {
     text-decoration: underline;
+}
+
+#nav-menu.mobile-nav {
+    display: block;
+    position: absolute;
+    background: white;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#nav-menu.mobile-nav>ul {
+    display: block;
+}
+
+#nav-menu.mobile-nav>ul>li {
+    padding: 12px 0;
+}
+
+#nav-menu.mobile-nav>a {
+    margin-left: 20px;
 }
 
 h6 {
