@@ -411,7 +411,7 @@ footer p {
     }
 }
 
-@media (prefers-color-scheme: dark) {
+.dark-mode {
     body {
         background: #0D0D0D;
         color: #e2e2e2;
@@ -438,7 +438,7 @@ footer p {
     }
 }
 
-@media (prefers-color-scheme: light) {
+.light-mode {
     body {
         background: #ffffff;
         color: #464646;

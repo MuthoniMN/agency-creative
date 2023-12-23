@@ -14,3 +14,11 @@ setInterval(() => {
 document.querySelector("#menu-icon").addEventListener('click', () => {
     document.querySelector("#nav-menu").classList.toggle("mobile-nav")
 })
+
+
+const a = window.matchMedia("(prefers-color-scheme: dark)");
+if (a.matches) {
+    document.querySelector("body").classList.add("dark-mode")
+} else {
+    document.querySelector("body").classList.add("light-mode")
+}
