@@ -18,7 +18,7 @@ document.querySelector("#menu-icon").addEventListener('click', () => {
 
 const a = window.matchMedia("(prefers-color-scheme: dark)");
 if (a.matches) {
-    document.querySelector("body").classList.add("dark-mode")
+    document.querySelector("body").classList.replace("light-mode", "dark-mode")
 } else {
-    document.querySelector("body").classList.add("light-mode")
+    document.querySelector("body").classList.replace("dark-mode", "light-mode")
 }
