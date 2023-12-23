@@ -416,23 +416,23 @@ footer p {
     color: #e2e2e2;
 }
 
-.dark-mode.nav-flex img {
+.dark-mode .nav-flex img {
     padding: 12px 24px;
     background: white;
     border-radius: 24px;
 }
 
-.dark-mode.nav-flex>ul>li>a {
+.dark-mode .nav-flex>ul>li>a {
     color: #e2e2e2;
 }
 
-.dark-mode#testimonials .div2 {
+.dark-mode #testimonials .div2 {
     background: #0B0F15;
     border: none;
 }
 
-.dark-mode.hero h3,
-.dark-mode.hero h5 {
+.dark-mode .hero h3,
+.dark-mode .hero h5 {
     color: #383638;
 }
 
