@@ -320,7 +320,24 @@ footer p {
     color: white;
 }
 
+@media (min-width: 640px) and (max-width: 1024px) {
+    body>section.flex>img {
+        width: 320px;
+    }
+}
+
 @media screen and (max-width: 640px) {
+    .img-grid img {
+        width: 200px;
+    }
+
+    .img-grid .img-2 {
+        margin-top: -150px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
 
     body>section {
         padding: 40px 12px;
@@ -397,17 +414,17 @@ footer p {
     }
 
     .img-grid {
-        margin: 56px 0;
+        margin: 56px;
     }
 
 
     .img-grid img {
-        width: 200px;
+        width: 250px;
+        margin: 0 auto;
     }
 
-    .img-2 {
-        margin-top: -150px;
-        margin-left: 150px;
+    .img-grid .img-1 {
+        margin-bottom: -75px;
     }
 }
 
