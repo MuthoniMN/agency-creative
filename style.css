@@ -437,3 +437,22 @@ footer p {
         color: #383638;
     }
 }
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #ffffff;
+        color: #464646;
+    }
+
+    .nav-flex>ul>li>a {
+        color: #000;
+    }
+
+    h3,
+    h1,
+    h2,
+    h4,
+    h5 {
+        color: #000;
+    }
+}
